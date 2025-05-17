@@ -1,6 +1,7 @@
 services:
   frontend:
     image: manacccc/tp2-2271627-2241112-frontend:${FRONTEND_VERSION:-latest}
+    container_name: movies-frontend
     build:
       context: ./movies-frontend
     ports:
